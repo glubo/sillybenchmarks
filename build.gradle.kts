@@ -13,6 +13,8 @@ repositories {
 }
 
 dependencies {
+    implementation("org.jetbrains.lets-plot:lets-plot-kotlin-jvm:_")
+    implementation("org.jetbrains.lets-plot:lets-plot-image-export:_")
     testImplementation(kotlin("test"))
     testImplementation(Testing.junit.jupiter.params)
 }
